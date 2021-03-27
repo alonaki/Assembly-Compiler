@@ -3,7 +3,8 @@ This project is an assignment in a C programming course. The purpose of this pro
 
 License: MIT License, Affect from March 26st, 2021
 
-Directory structure (Modules)
+# Directory structure (Modules):
+
 main.c - main function definition, argv & argc processing, single file processing.
 firstrun.c - contains functions for check if the syntax of given file correct. 
 secrun.c - contains function for processing a single line and print into file the hex value of the line.
