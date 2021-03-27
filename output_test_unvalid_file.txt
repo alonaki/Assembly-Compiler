@@ -1,0 +1,93 @@
+
+
+ ---- First run on file test_unvalid_file.as starting ----
+
+
+Error on line (3):
+	-->Missing operand
+Error on line (6):
+	-->Invalid operand
+Error on line (9):
+	-->Missing operand
+Error on line (12):
+	-->Unvalid operand
+Error on line (15):
+	-->Unvalid operand
+Error on line (18):
+	--> Unvalid func --> and
+Error on line (21):
+	--> Unvalid func --> jSr
+Error on line (24):
+	-->Unvalid operand
+Error on line (27):
+	-->Unvalid operand
+Error on line (30):
+	-->Unexpect char after command
+Error on line (33):
+	-->Unvalid operand
+Error on line (36):
+	-->Unexpect char after command
+Error on line (39):
+	-->Unvalid operand
+Error on line (42):
+	-->Unvalid operand
+Error on line (45):
+	-->Unvalid operand
+Error on line (48):
+	-->Unexpect char after command
+Error on line (51):
+	-->Unvalid data line
+Error on line (54):
+	-->Can't be two comma in a row
+Error on line (57):
+	-->Expecet at number after ,
+Error on line (60):
+	-->Unvalid char in this line Z4:     .data   #123
+
+Error on line (63):
+	-->Unvalid data line
+Error on line (66):
+	-->Cant be twice in a row sign '-' or '+'
+Error on line (69):
+The label --> 'mov' is saved word
+
+Error on line (72):
+The label --> 'r6' is saved word
+
+Error on line (75):
+	-->Unvalid label needs to starts with letter --> 1DATA:  .data   300
+
+Error on line (78):
+	-->Label needs to end with :
+Error on line (81):
+	-->String must start with "
+Error on line (84):
+	-->Unexpect char after string
+Error on line (87):
+	-->Max size of label is 31
+Error on line (90):
+	-->Expect at laset one argument
+Error on line (93):
+	-->Unvalid label needs to starts with letter
+Error on line (96):
+	--> Unvalid func --> .invalid
+Error on line (100):
+	-->Unexpect char after command
+	   ---- First run is OK  ----
+
+ ---- Second run on file test_unvalid_file.as starting ----
+
+
+Error on line (3):
+	-->Label did not exist 
+Error on line (6):
+	-->Label did not exist 
+Error on line (9):
+	-->Label did not exist 
+Error on line (24):
+	-->Label did not exist ,r2
+Error on line (27):
+	-->Label did not exist r1,r3
+Error on line (33):
+	-->Label did not exist 48
+	---- Files created successfully ----
