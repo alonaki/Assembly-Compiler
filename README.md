@@ -1,5 +1,5 @@
 # Assembly-Compiler
-This project is an assignment in a C programming course. The purpose of this project is to build an assembler for 16-instruction asssembly language, for an imaginary 12-bit CPU and 4096 bits of memory size. For any issues, questions and ideas turn to the Issues tab.
+This project is an assignment in a C programming course. The purpose of this project is to build an assembler for 16-instruction assembly language, for an imaginary 12-bit CPU and 4096 bits of memory size. For any issues, questions and ideas turn to the Issues tab.
 
 
 # Directory structure (Modules):
